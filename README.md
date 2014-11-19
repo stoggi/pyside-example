@@ -8,8 +8,8 @@ Dependencies
 
 You need to install PySide. The best way is with pip. For bonus points, use a virtualenv too.
 
-(optional)
 ```sh
+pip install virtualenv
 virtualenv fruit-example
 . fruit-example/bin/activate
 ```
@@ -24,6 +24,7 @@ If you are on OSX you will need to install Qt first.
 brew install qt
 ```
 
+To modify the ui file, you need to install QtCreator from [qt-project.org](http://qt-project.org/downloads#qt-creator).
 
 Generate fruit_ui.py
 --------------------
